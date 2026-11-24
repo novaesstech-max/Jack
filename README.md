@@ -34,4 +34,3 @@ bun run dev
 O projeto já tem `vercel.json`: basta importar o repositório na Vercel. O build roda
 `NITRO_PRESET=vercel bun run build`, que gera `.vercel/output` (Build Output API).
 
-Projeto criado com [Lovable](https://lovable.dev).
