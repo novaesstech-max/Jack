@@ -31,12 +31,10 @@ bun run dev
 
 ## Deploy na Vercel
 
-Site: https://super-jack.vercel.app
+Site: https://super-jack-navy.vercel.app
 
-Todo push na `main` publica automaticamente pelo GitHub Actions
-(`.github/workflows/deploy.yml`). O workflow precisa do secret `VERCEL_TOKEN`
-(crie em https://vercel.com/account/tokens e adicione em Settings → Secrets and
-variables → Actions). Também dá para rodar manualmente na aba Actions.
+O projeto `super-jack` está na Vercel da Novaes Tech, ligado a este repositório:
+todo push na `main` publica automaticamente.
 
 O build roda `NITRO_PRESET=vercel bun run build` (definido no `vercel.json`), que gera
 `.vercel/output` (Build Output API).
